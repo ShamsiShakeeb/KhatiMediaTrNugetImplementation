@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyProjectTest/1.0.0": {
+        "dependencies": {
+          "KhatiMediaTr": "1.0.0"
+        },
+        "runtime": {
+          "MyProjectTest.dll": {}
+        }
+      },
+      "KhatiMediaTr/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/KhatiMediaTr.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "MyProjectTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KhatiMediaTr/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhi/0oZKssiuwxKO0aZrzoHl9ElSSziX4w6Pf66q8swMaenZOj2iTFY1LigPWvHGi3u0BEB+DwIwe+9Wd72tqw==",
+      "path": "khatimediatr/1.0.0",
+      "hashPath": "khatimediatr.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    }
+  }
+}
